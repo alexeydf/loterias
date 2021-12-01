@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+.top-header{
+  background-color: #0065B7;
+  padding: 15px;
+}
+.menu{
+  display: flex;
+}
+.menu a{
+  color: #FF9F09;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.menu a:hover{
+  color: #ca7d00;
+}
+
+.center{
+  padding: 20px;
+}
+
+.titulo{
+  font-weight: 800;
+  color: #008f58;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+.inputs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inputs h3, .inputs2 label{
+  font-size: .9rem;
+  font-weight: 400;
+  color: #a5a5a5;
+}
+.input-box{
+ margin: 5px 2.5px;
+}
+.input-box input[type=radio]{
+  display: none;
+}
+.input-box label{
+  width: 35px;
+  height: 35px;
+  border: 1px solid #008f58;
+  border-radius: 5px;
+  color: #008f58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s;
+  cursor: pointer;
+}
+.input-box .preto{
+  background-color: #008f58;
+  color: #fff;
+}
+
+.inputs2 input{
+  width: 35px;
+  padding: 5px 0;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #008f58;
+  color: #01633d;
+}
+.inputs2 button{
+  border: none;
+  padding: 5px 10px;
+  background-color: #008f58;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.txt{
+  padding: 15px 0;
+}
+.txt p{
+  background-color: #008f58;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  padding: 10px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.lotofacil .titulo{
+  color: #b100b7;
+}
+.lotofacil .input-box label{
+  border: 1px solid #b100b7;
+  color: #b100b7;
+}
+.lotofacil .input-box .preto{
+  background-color: #b100b7;
+  color: #fff;
+}
+.lotofacil .inputs2 input{
+  border-bottom: 1px solid #b100b7;
+  color: #830088;
+}
+.lotofacil .inputs2 button{
+  background-color: #b100b7;
+}
+.lotofacil .txt p{
+  background-color: #b100b7;
+}
+
+.quina .titulo{
+  color: #290099;
+}
+.quina .input-box label{
+  border: 1px solid #290099;
+  color: #290099;
+}
+.quina .input-box .preto{
+  background-color: #290099;
+  color: #fff;
+}
+.quina .inputs2 input{
+  border-bottom: 1px solid #290099;
+  color: #1c0169;
+}
+.quina .inputs2 button{
+  background-color: #290099;
+}
+.quina .txt p{
+  background-color: #290099;
+}
